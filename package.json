@@ -1,0 +1,29 @@
+{
+  "name": "common-rest-mongo",
+  "version": "1.0.0",
+  "description": "Common Rest API based on mongoose",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc"
+  },
+  "author": "wingland",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "lodash": "^4.17.5",
+    "log4js": "^2.5.3",
+    "mongoose": "^5.0.12",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/es6-promise": "^3.3.0",
+    "@types/lodash": "^4.14.106",
+    "@types/log4js": "^2.3.5",
+    "@types/mongoose": "^5.0.7",
+    "typescript": "^2.8.1"
+  }
+}
